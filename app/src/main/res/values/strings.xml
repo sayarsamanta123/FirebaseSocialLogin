@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SocialIntegrationWithFirebase</string>
+    <string name="facebook_app_id">2372182066146804</string>
+    <string name="fb_login_protocol_scheme">fb2372182066146804</string>
+    <string name="submit_details">Submit details</string>
+    <string name="enter_email">Enter email</string>
+    <string name="email">Email</string>
+    <string name="required">required</string>
+    <string name="mobile">Mobile</string>
+    <string name="enter_mobile_number">Enter mobile number</string>
+    <string name="location">Location</string>
+    <string name="your_location_is">Your location is</string>
+    <string name="get_location">Get location</string>
+    <string name="all_details">Please fill all the details</string>
+</resources>

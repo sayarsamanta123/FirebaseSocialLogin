@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "566478673345",
+    "firebase_url": "https://socialintegration-83698.firebaseio.com",
+    "project_id": "socialintegration-83698",
+    "storage_bucket": "socialintegration-83698.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566478673345:android:f70d13498e9ece37",
+        "android_client_info": {
+          "package_name": "com.example.sayarsamanta.socialintegrationwithfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "566478673345-iqjb749nr1n6q9sroe156ifrv7keg3qd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjJ68DvYWYWwacyQ94B5l3ZGt2Zg0rPDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "566478673345-iqjb749nr1n6q9sroe156ifrv7keg3qd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

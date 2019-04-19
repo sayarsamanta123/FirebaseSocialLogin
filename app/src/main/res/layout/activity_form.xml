@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:theme="@style/AppThemeOverlay.ActionBar"
+        android:backgroundTint="#154c66">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="#154c66"
+            app:popupTheme="@style/AppThemeOverlay.ActionBarMainActivity">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize">
+
+                <ImageView
+                    android:id="@+id/imageViewBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:backgroundTint="@color/colorAccent"
+                    android:background="@drawable/ic_arrow_back_black_24dp" />
+
+                <TextView
+                    android:id="@+id/titlesave"
+                    android:layout_width="250dp"
+                    android:layout_height="30dp"
+                    android:layout_alignTop="@+id/imageViewBack"
+                    android:layout_marginStart="22dp"
+                    android:layout_toEndOf="@+id/imageViewBack"
+                    android:text="@string/submit_details"
+                    android:textAllCaps="true"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/hintedlainesansregular"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"/>
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.Toolbar>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+<include layout="@layout/layout_form"/>
+
+
+
+</android.support.design.widget.CoordinatorLayout>
